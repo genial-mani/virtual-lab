@@ -1,0 +1,96 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.error {
+	color: red;
+	font-size: 1.2rem;
+	margin: 20px 0;
+}
+
+.result {
+	margin: 20px 0;
+}
+
+.circular-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.circular-item {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border-radius: 50%;
+	background-color: #0ab9f3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.binary {
+	font-size: 1.5rem;
+	margin-bottom: 5px;
+}
+
+.decimal {
+	font-size: 2rem;
+	font-weight: bold;
+}
+/*  */
+input[type="submit"] {
+	background-color: #8bc34a;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+  }
+
+  input[type="submit"]:hover {
+	background-color: #689f38;
+  }
+  
+  /* Add box-shadow to input field */
+  input[type="text"] {
+	padding: 10px;
+	border-radius: 4px;
+	border: none;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  }
+
+  
+  /* Change color of input button */
+input[type="submit"] {
+	background-color: #000000;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+	background-color: #111111;
+}
+
+/* Add box-shadow to input field */
+input[type="text"] {
+	padding: 10px;
+	border-radius: 4px;
+	border: none;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);  
+}
+
+/* Change background color of input field when focused */
+input[type="text"]:focus {
+	background-color: #e0f2f1;
+}
